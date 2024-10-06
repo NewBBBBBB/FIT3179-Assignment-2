@@ -1,28 +1,28 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text":"Breakdown of Top 5 States by GDP Values by Sector (2020-2023)",
+    "text":"Breakdown of Top 5 States by GDP Values by Sector (2017-2022)",
     "fontSize":26
     },
   "width": 450,
   "height": 450,
-  "data": {"url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/gdp_by_each_sector_and_state.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_sector.csv"},
 
   "params": [
     {
       "name": "year_filter",
-      "value": 2020,
+      "value": 2017,
       "bind": {
         "input": "select",
-        "options": [2020, 2021, 2022, 2023],
-          "labels": ["2020", "2021", "2022", "2023"],
+        "options": [2017,2018,2019,2020, 2021, 2022],
+          "labels": ["2017", "2018", "2019", "2020", "2021", "2022"],
         "name": "Select Year: "
       }
     }
   ],
   "transform": [
         {"filter": "datum.year == year_filter"},
-        {"filter": {"field": "state", "oneOf": ["Selangor", "Johor", "Sabah", "Sarawak", "W.P. Kuala Lumpur"]}}
+        {"filter": {"field": "state", "oneOf": ["Selangor", "Johor", "Sarawak", "Kuala Lumpur","Pulau Pinang"]}}
       ],
   "mark": "bar",
   "encoding": {
