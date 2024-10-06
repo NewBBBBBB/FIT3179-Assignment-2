@@ -77,18 +77,18 @@ year,state,sector,value,sector_name_en
 2017,Terengganu,p4,1275.923,Construction
 2017,Terengganu,p5,16916.309,Services
 2017,Terengganu,p6,104.767,Import duties
-2017,W.P. Kuala Lumpur,p1,0,Agriculture
-2017,W.P. Kuala Lumpur,p2,145.62,Mining and quarrying
-2017,W.P. Kuala Lumpur,p3,5870.658,Manufacturing
-2017,W.P. Kuala Lumpur,p4,16406.305,Construction
-2017,W.P. Kuala Lumpur,p5,180195.571,Services
-2017,W.P. Kuala Lumpur,p6,3555.524,Import duties
-2017,W.P. Labuan,p1,118.722,Agriculture
-2017,W.P. Labuan,p2,0,Mining and quarrying
-2017,W.P. Labuan,p3,1295.515,Manufacturing
-2017,W.P. Labuan,p4,135.768,Construction
-2017,W.P. Labuan,p5,5092.569,Services
-2017,W.P. Labuan,p6,147.231,Import duties
+2017,Kuala Lumpur,p1,0,Agriculture
+2017,Kuala Lumpur,p2,145.62,Mining and quarrying
+2017,Kuala Lumpur,p3,5870.658,Manufacturing
+2017,Kuala Lumpur,p4,16406.305,Construction
+2017,Kuala Lumpur,p5,180195.571,Services
+2017,Kuala Lumpur,p6,3555.524,Import duties
+2017,Labuan,p1,118.722,Agriculture
+2017,Labuan,p2,0,Mining and quarrying
+2017,Labuan,p3,1295.515,Manufacturing
+2017,Labuan,p4,135.768,Construction
+2017,Labuan,p5,5092.569,Services
+2017,Labuan,p6,147.231,Import duties
 2018,Johor,p1,16246.395,Agriculture
 2018,Johor,p2,711.119,Mining and quarrying
 2018,Johor,p3,38337.729,Manufacturing
@@ -167,18 +167,18 @@ year,state,sector,value,sector_name_en
 2018,Terengganu,p4,1161.133,Construction
 2018,Terengganu,p5,17527.333,Services
 2018,Terengganu,p6,64.051,Import duties
-2018,W.P. Kuala Lumpur,p1,0,Agriculture
-2018,W.P. Kuala Lumpur,p2,145.724,Mining and quarrying
-2018,W.P. Kuala Lumpur,p3,5867.619,Manufacturing
-2018,W.P. Kuala Lumpur,p4,17446.124,Construction
-2018,W.P. Kuala Lumpur,p5,193472.341,Services
-2018,W.P. Kuala Lumpur,p6,3425.512,Import duties
-2018,W.P. Labuan,p1,125.608,Agriculture
-2018,W.P. Labuan,p2,0,Mining and quarrying
-2018,W.P. Labuan,p3,1364.66,Manufacturing
-2018,W.P. Labuan,p4,156.064,Construction
-2018,W.P. Labuan,p5,5480.777,Services
-2018,W.P. Labuan,p6,117.831,Import duties
+2018,Kuala Lumpur,p1,0,Agriculture
+2018,Kuala Lumpur,p2,145.724,Mining and quarrying
+2018,Kuala Lumpur,p3,5867.619,Manufacturing
+2018,Kuala Lumpur,p4,17446.124,Construction
+2018,Kuala Lumpur,p5,193472.341,Services
+2018,Kuala Lumpur,p6,3425.512,Import duties
+2018,Labuan,p1,125.608,Agriculture
+2018,Labuan,p2,0,Mining and quarrying
+2018,Labuan,p3,1364.66,Manufacturing
+2018,Labuan,p4,156.064,Construction
+2018,Labuan,p5,5480.777,Services
+2018,Labuan,p6,117.831,Import duties
 2019,Johor,p1,16403.246,Agriculture
 2019,Johor,p2,812.547,Mining and quarrying
 2019,Johor,p3,40124.896,Manufacturing
@@ -257,18 +257,18 @@ year,state,sector,value,sector_name_en
 2019,Terengganu,p4,1165.429,Construction
 2019,Terengganu,p5,18508.873,Services
 2019,Terengganu,p6,15.941,Import duties
-2019,W.P. Kuala Lumpur,p1,0,Agriculture
-2019,W.P. Kuala Lumpur,p2,152.637,Mining and quarrying
-2019,W.P. Kuala Lumpur,p3,6119.096,Manufacturing
-2019,W.P. Kuala Lumpur,p4,18469.697,Construction
-2019,W.P. Kuala Lumpur,p5,205330.858,Services
-2019,W.P. Kuala Lumpur,p6,3719.753,Import duties
-2019,W.P. Labuan,p1,133.251,Agriculture
-2019,W.P. Labuan,p2,0,Mining and quarrying
-2019,W.P. Labuan,p3,1383.647,Manufacturing
-2019,W.P. Labuan,p4,177.184,Construction
-2019,W.P. Labuan,p5,5897.621,Services
-2019,W.P. Labuan,p6,31.566,Import duties
+2019,Kuala Lumpur,p1,0,Agriculture
+2019,Kuala Lumpur,p2,152.637,Mining and quarrying
+2019,Kuala Lumpur,p3,6119.096,Manufacturing
+2019,Kuala Lumpur,p4,18469.697,Construction
+2019,Kuala Lumpur,p5,205330.858,Services
+2019,Kuala Lumpur,p6,3719.753,Import duties
+2019,Labuan,p1,133.251,Agriculture
+2019,Labuan,p2,0,Mining and quarrying
+2019,Labuan,p3,1383.647,Manufacturing
+2019,Labuan,p4,177.184,Construction
+2019,Labuan,p5,5897.621,Services
+2019,Labuan,p6,31.566,Import duties
 2020,Johor,p1,16856.55,Agriculture
 2020,Johor,p2,657.515,Mining and quarrying
 2020,Johor,p3,38650.689,Manufacturing
@@ -347,18 +347,18 @@ year,state,sector,value,sector_name_en
 2020,Terengganu,p4,1080.445,Construction
 2020,Terengganu,p5,17942.611,Services
 2020,Terengganu,p6,30.687,Import duties
-2020,W.P. Kuala Lumpur,p1,0,Agriculture
-2020,W.P. Kuala Lumpur,p2,138.272,Mining and quarrying
-2020,W.P. Kuala Lumpur,p3,5733.447,Manufacturing
-2020,W.P. Kuala Lumpur,p4,13589.06,Construction
-2020,W.P. Kuala Lumpur,p5,194204.167,Services
-2020,W.P. Kuala Lumpur,p6,3780.403,Import duties
-2020,W.P. Labuan,p1,115.129,Agriculture
-2020,W.P. Labuan,p2,0,Mining and quarrying
-2020,W.P. Labuan,p3,1367.505,Manufacturing
-2020,W.P. Labuan,p4,162.59,Construction
-2020,W.P. Labuan,p5,5910.296,Services
-2020,W.P. Labuan,p6,57.841,Import duties
+2020,Kuala Lumpur,p1,0,Agriculture
+2020,Kuala Lumpur,p2,138.272,Mining and quarrying
+2020,Kuala Lumpur,p3,5733.447,Manufacturing
+2020,Kuala Lumpur,p4,13589.06,Construction
+2020,Kuala Lumpur,p5,194204.167,Services
+2020,Kuala Lumpur,p6,3780.403,Import duties
+2020,Labuan,p1,115.129,Agriculture
+2020,Labuan,p2,0,Mining and quarrying
+2020,Labuan,p3,1367.505,Manufacturing
+2020,Labuan,p4,162.59,Construction
+2020,Labuan,p5,5910.296,Services
+2020,Labuan,p6,57.841,Import duties
 2021,Johor,p1,16882.569,Agriculture
 2021,Johor,p2,586.874,Mining and quarrying
 2021,Johor,p3,40726.902,Manufacturing
@@ -437,18 +437,18 @@ year,state,sector,value,sector_name_en
 2021,Terengganu,p4,1105.7,Construction
 2021,Terengganu,p5,18200.843,Services
 2021,Terengganu,p6,15.999,Import duties
-2021,W.P. Kuala Lumpur,p1,0,Agriculture
-2021,W.P. Kuala Lumpur,p2,134.235,Mining and quarrying
-2021,W.P. Kuala Lumpur,p3,5977.909,Manufacturing
-2021,W.P. Kuala Lumpur,p4,11966.1,Construction
-2021,W.P. Kuala Lumpur,p5,197978.504,Services
-2021,W.P. Kuala Lumpur,p6,3825.288,Import duties
-2021,W.P. Labuan,p1,116.628,Agriculture
-2021,W.P. Labuan,p2,0,Mining and quarrying
-2021,W.P. Labuan,p3,1353.715,Manufacturing
-2021,W.P. Labuan,p4,143.3,Construction
-2021,W.P. Labuan,p5,5996.655,Services
-2021,W.P. Labuan,p6,39.372,Import duties
+2021,Kuala Lumpur,p1,0,Agriculture
+2021,Kuala Lumpur,p2,134.235,Mining and quarrying
+2021,Kuala Lumpur,p3,5977.909,Manufacturing
+2021,Kuala Lumpur,p4,11966.1,Construction
+2021,Kuala Lumpur,p5,197978.504,Services
+2021,Kuala Lumpur,p6,3825.288,Import duties
+2021,Labuan,p1,116.628,Agriculture
+2021,Labuan,p2,0,Mining and quarrying
+2021,Labuan,p3,1353.715,Manufacturing
+2021,Labuan,p4,143.3,Construction
+2021,Labuan,p5,5996.655,Services
+2021,Labuan,p6,39.372,Import duties
 2022,Johor,p1,17402.664,Agriculture
 2022,Johor,p2,648.636,Mining and quarrying
 2022,Johor,p3,42948.216,Manufacturing
@@ -527,555 +527,15 @@ year,state,sector,value,sector_name_en
 2022,Terengganu,p4,1143.569,Construction
 2022,Terengganu,p5,19284.074,Services
 2022,Terengganu,p6,8.308,Import duties
-2022,W.P. Kuala Lumpur,p1,0,Agriculture
-2022,W.P. Kuala Lumpur,p2,147.775,Mining and quarrying
-2022,W.P. Kuala Lumpur,p3,6297.152,Manufacturing
-2022,W.P. Kuala Lumpur,p4,12212.196,Construction
-2022,W.P. Kuala Lumpur,p5,219683.46,Services
-2022,W.P. Kuala Lumpur,p6,2175.199,Import duties
-2022,W.P. Labuan,p1,122.137,Agriculture
-2022,W.P. Labuan,p2,0,Mining and quarrying
-2022,W.P. Labuan,p3,1376.733,Manufacturing
-2022,W.P. Labuan,p4,147.96,Construction
-2022,W.P. Labuan,p5,6281.577,Services
-2022,W.P. Labuan,p6,34.104,Import duties
-2017,Johor,p1,7.585,Agriculture
-2017,Johor,p2,15.139,Mining and quarrying
-2017,Johor,p3,6.869,Manufacturing
-2017,Johor,p4,-6.362,Construction
-2017,Johor,p5,6.634,Services
-2017,Johor,p6,8.588,Import duties
-2017,Kedah,p1,5.046,Agriculture
-2017,Kedah,p2,14.514,Mining and quarrying
-2017,Kedah,p3,4.319,Manufacturing
-2017,Kedah,p4,-6.995,Construction
-2017,Kedah,p5,5.328,Services
-2017,Kedah,p6,-4.811,Import duties
-2017,Kelantan,p1,3.582,Agriculture
-2017,Kelantan,p2,16.733,Mining and quarrying
-2017,Kelantan,p3,9.034,Manufacturing
-2017,Kelantan,p4,-9.472,Construction
-2017,Kelantan,p5,4.882,Services
-2017,Kelantan,p6,6.181,Import duties
-2017,Melaka,p1,7.253,Agriculture
-2017,Melaka,p2,7.569,Mining and quarrying
-2017,Melaka,p3,6.798,Manufacturing
-2017,Melaka,p4,72.431,Construction
-2017,Melaka,p5,5.425,Services
-2017,Melaka,p6,183.583,Import duties
-2017,Negeri Sembilan,p1,8.664,Agriculture
-2017,Negeri Sembilan,p2,9.769,Mining and quarrying
-2017,Negeri Sembilan,p3,3.229,Manufacturing
-2017,Negeri Sembilan,p4,17.029,Construction
-2017,Negeri Sembilan,p5,4.705,Services
-2017,Negeri Sembilan,p6,5.293,Import duties
-2017,Pahang,p1,9.475,Agriculture
-2017,Pahang,p2,-19.314,Mining and quarrying
-2017,Pahang,p3,6.569,Manufacturing
-2017,Pahang,p4,18.501,Construction
-2017,Pahang,p5,6.144,Services
-2017,Pahang,p6,75.987,Import duties
-2017,Perak,p1,7.787,Agriculture
-2017,Perak,p2,5.906,Mining and quarrying
-2017,Perak,p3,7.99,Manufacturing
-2017,Perak,p4,-24.151,Construction
-2017,Perak,p5,5.558,Services
-2017,Perak,p6,33.705,Import duties
-2017,Perlis,p1,4.076,Agriculture
-2017,Perlis,p2,8.276,Mining and quarrying
-2017,Perlis,p3,2.257,Manufacturing
-2017,Perlis,p4,-42.848,Construction
-2017,Perlis,p5,4.023,Services
-2017,Perlis,p6,10.383,Import duties
-2017,Pulau Pinang,p1,2.344,Agriculture
-2017,Pulau Pinang,p2,6.226,Mining and quarrying
-2017,Pulau Pinang,p3,5.69,Manufacturing
-2017,Pulau Pinang,p4,-9.906,Construction
-2017,Pulau Pinang,p5,5.566,Services
-2017,Pulau Pinang,p6,25.876,Import duties
-2017,Sabah,p1,4.734,Agriculture
-2017,Sabah,p2,15.679,Mining and quarrying
-2017,Sabah,p3,5.394,Manufacturing
-2017,Sabah,p4,-1.487,Construction
-2017,Sabah,p5,5.536,Services
-2017,Sabah,p6,16.595,Import duties
-2017,Sarawak,p1,0.578,Agriculture
-2017,Sarawak,p2,3.284,Mining and quarrying
-2017,Sarawak,p3,3.707,Manufacturing
-2017,Sarawak,p4,19.849,Construction
-2017,Sarawak,p5,6.245,Services
-2017,Sarawak,p6,16.57,Import duties
-2017,Selangor,p1,11.55,Agriculture
-2017,Selangor,p2,7.571,Mining and quarrying
-2017,Selangor,p3,7.945,Manufacturing
-2017,Selangor,p4,8.234,Construction
-2017,Selangor,p5,6.987,Services
-2017,Selangor,p6,1.319,Import duties
-2017,Terengganu,p1,8.951,Agriculture
-2017,Terengganu,p2,9.051,Mining and quarrying
-2017,Terengganu,p3,3.883,Manufacturing
-2017,Terengganu,p4,38.739,Construction
-2017,Terengganu,p5,4.376,Services
-2017,Terengganu,p6,110.722,Import duties
-2017,W.P. Kuala Lumpur,p1,NA,Agriculture
-2017,W.P. Kuala Lumpur,p2,12.827,Mining and quarrying
-2017,W.P. Kuala Lumpur,p3,1.313,Manufacturing
-2017,W.P. Kuala Lumpur,p4,13.073,Construction
-2017,W.P. Kuala Lumpur,p5,6.787,Services
-2017,W.P. Kuala Lumpur,p6,44.306,Import duties
-2017,W.P. Labuan,p1,3.734,Agriculture
-2017,W.P. Labuan,p2,NA,Mining and quarrying
-2017,W.P. Labuan,p3,3.161,Manufacturing
-2017,W.P. Labuan,p4,12.605,Construction
-2017,W.P. Labuan,p5,5.123,Services
-2017,W.P. Labuan,p6,91.675,Import duties
-2018,Johor,p1,0.473,Agriculture
-2018,Johor,p2,8.483,Mining and quarrying
-2018,Johor,p3,5.135,Manufacturing
-2018,Johor,p4,9.636,Construction
-2018,Johor,p5,7.338,Services
-2018,Johor,p6,-10.335,Import duties
-2018,Kedah,p1,0.054,Agriculture
-2018,Kedah,p2,4.865,Mining and quarrying
-2018,Kedah,p3,3.035,Manufacturing
-2018,Kedah,p4,8.707,Construction
-2018,Kedah,p5,5.443,Services
-2018,Kedah,p6,-8.368,Import duties
-2018,Kelantan,p1,-0.845,Agriculture
-2018,Kelantan,p2,19.739,Mining and quarrying
-2018,Kelantan,p3,0.26,Manufacturing
-2018,Kelantan,p4,-37.718,Construction
-2018,Kelantan,p5,5.171,Services
-2018,Kelantan,p6,-1.599,Import duties
-2018,Melaka,p1,-1.247,Agriculture
-2018,Melaka,p2,9.496,Mining and quarrying
-2018,Melaka,p3,4.573,Manufacturing
-2018,Melaka,p4,-13.063,Construction
-2018,Melaka,p5,6.003,Services
-2018,Melaka,p6,-4.645,Import duties
-2018,Negeri Sembilan,p1,0.055,Agriculture
-2018,Negeri Sembilan,p2,3.042,Mining and quarrying
-2018,Negeri Sembilan,p3,3.327,Manufacturing
-2018,Negeri Sembilan,p4,11.649,Construction
-2018,Negeri Sembilan,p5,5.787,Services
-2018,Negeri Sembilan,p6,-9.529,Import duties
-2018,Pahang,p1,1.347,Agriculture
-2018,Pahang,p2,-0.558,Mining and quarrying
-2018,Pahang,p3,5.752,Manufacturing
-2018,Pahang,p4,-25.74,Construction
-2018,Pahang,p5,6.491,Services
-2018,Pahang,p6,-19.245,Import duties
-2018,Perak,p1,0.474,Agriculture
-2018,Perak,p2,5.147,Mining and quarrying
-2018,Perak,p3,4.178,Manufacturing
-2018,Perak,p4,10.586,Construction
-2018,Perak,p5,6.701,Services
-2018,Perak,p6,-13.824,Import duties
-2018,Perlis,p1,0.908,Agriculture
-2018,Perlis,p2,6.11,Mining and quarrying
-2018,Perlis,p3,1.52,Manufacturing
-2018,Perlis,p4,21.511,Construction
-2018,Perlis,p5,4.251,Services
-2018,Perlis,p6,-12.308,Import duties
-2018,Pulau Pinang,p1,-3.204,Agriculture
-2018,Pulau Pinang,p2,8.741,Mining and quarrying
-2018,Pulau Pinang,p3,5.432,Manufacturing
-2018,Pulau Pinang,p4,-2.575,Construction
-2018,Pulau Pinang,p5,6.126,Services
-2018,Pulau Pinang,p6,-10.522,Import duties
-2018,Sabah,p1,-0.333,Agriculture
-2018,Sabah,p2,-5.686,Mining and quarrying
-2018,Sabah,p3,2.379,Manufacturing
-2018,Sabah,p4,25.65,Construction
-2018,Sabah,p5,5.614,Services
-2018,Sabah,p6,-7.052,Import duties
-2018,Sarawak,p1,-0.679,Agriculture
-2018,Sarawak,p2,-1.943,Mining and quarrying
-2018,Sarawak,p3,2.206,Manufacturing
-2018,Sarawak,p4,1.097,Construction
-2018,Sarawak,p5,6.365,Services
-2018,Sarawak,p6,-8.716,Import duties
-2018,Selangor,p1,4.986,Agriculture
-2018,Selangor,p2,6.606,Mining and quarrying
-2018,Selangor,p3,7.261,Manufacturing
-2018,Selangor,p4,6.06,Construction
-2018,Selangor,p5,7.69,Services
-2018,Selangor,p6,-8.962,Import duties
-2018,Terengganu,p1,-2.547,Agriculture
-2018,Terengganu,p2,5.416,Mining and quarrying
-2018,Terengganu,p3,3.727,Manufacturing
-2018,Terengganu,p4,-8.997,Construction
-2018,Terengganu,p5,3.612,Services
-2018,Terengganu,p6,-38.863,Import duties
-2018,W.P. Kuala Lumpur,p1,NA,Agriculture
-2018,W.P. Kuala Lumpur,p2,0.071,Mining and quarrying
-2018,W.P. Kuala Lumpur,p3,-0.052,Manufacturing
-2018,W.P. Kuala Lumpur,p4,6.338,Construction
-2018,W.P. Kuala Lumpur,p5,7.368,Services
-2018,W.P. Kuala Lumpur,p6,-3.657,Import duties
-2018,W.P. Labuan,p1,5.8,Agriculture
-2018,W.P. Labuan,p2,NA,Mining and quarrying
-2018,W.P. Labuan,p3,5.337,Manufacturing
-2018,W.P. Labuan,p4,14.949,Construction
-2018,W.P. Labuan,p5,7.623,Services
-2018,W.P. Labuan,p6,-19.969,Import duties
-2019,Johor,p1,0.965,Agriculture
-2019,Johor,p2,14.263,Mining and quarrying
-2019,Johor,p3,4.662,Manufacturing
-2019,Johor,p4,-27.314,Construction
-2019,Johor,p5,6.483,Services
-2019,Johor,p6,-3.752,Import duties
-2019,Kedah,p1,3.251,Agriculture
-2019,Kedah,p2,9.063,Mining and quarrying
-2019,Kedah,p3,4.696,Manufacturing
-2019,Kedah,p4,8.081,Construction
-2019,Kedah,p5,4.869,Services
-2019,Kedah,p6,-20.341,Import duties
-2019,Kelantan,p1,7.055,Agriculture
-2019,Kelantan,p2,15.941,Mining and quarrying
-2019,Kelantan,p3,1.5,Manufacturing
-2019,Kelantan,p4,18.097,Construction
-2019,Kelantan,p5,4.87,Services
-2019,Kelantan,p6,15.015,Import duties
-2019,Melaka,p1,-2.94,Agriculture
-2019,Melaka,p2,9.588,Mining and quarrying
-2019,Melaka,p3,2.51,Manufacturing
-2019,Melaka,p4,-9.214,Construction
-2019,Melaka,p5,6.016,Services
-2019,Melaka,p6,-66.515,Import duties
-2019,Negeri Sembilan,p1,7.032,Agriculture
-2019,Negeri Sembilan,p2,5.434,Mining and quarrying
-2019,Negeri Sembilan,p3,2.454,Manufacturing
-2019,Negeri Sembilan,p4,-3.813,Construction
-2019,Negeri Sembilan,p5,8.638,Services
-2019,Negeri Sembilan,p6,-18.587,Import duties
-2019,Pahang,p1,3.468,Agriculture
-2019,Pahang,p2,16.246,Mining and quarrying
-2019,Pahang,p3,4.693,Manufacturing
-2019,Pahang,p4,-28.022,Construction
-2019,Pahang,p5,6.196,Services
-2019,Pahang,p6,-53.746,Import duties
-2019,Perak,p1,2.898,Agriculture
-2019,Perak,p2,9.542,Mining and quarrying
-2019,Perak,p3,3.491,Manufacturing
-2019,Perak,p4,6.566,Construction
-2019,Perak,p5,4.487,Services
-2019,Perak,p6,-70.436,Import duties
-2019,Perlis,p1,5.84,Agriculture
-2019,Perlis,p2,2.259,Mining and quarrying
-2019,Perlis,p3,1.014,Manufacturing
-2019,Perlis,p4,13.18,Construction
-2019,Perlis,p5,4.993,Services
-2019,Perlis,p6,-26.712,Import duties
-2019,Pulau Pinang,p1,5.005,Agriculture
-2019,Pulau Pinang,p2,9.648,Mining and quarrying
-2019,Pulau Pinang,p3,2.666,Manufacturing
-2019,Pulau Pinang,p4,0.936,Construction
-2019,Pulau Pinang,p5,5.475,Services
-2019,Pulau Pinang,p6,-33.4,Import duties
-2019,Sabah,p1,-0.847,Agriculture
-2019,Sabah,p2,-5.241,Mining and quarrying
-2019,Sabah,p3,-0.643,Manufacturing
-2019,Sabah,p4,6.189,Construction
-2019,Sabah,p5,5.359,Services
-2019,Sabah,p6,-42.733,Import duties
-2019,Sarawak,p1,-0.217,Agriculture
-2019,Sarawak,p2,1.304,Mining and quarrying
-2019,Sarawak,p3,2.905,Manufacturing
-2019,Sarawak,p4,1.675,Construction
-2019,Sarawak,p5,5.287,Services
-2019,Sarawak,p6,-32.978,Import duties
-2019,Selangor,p1,3.843,Agriculture
-2019,Selangor,p2,16.514,Mining and quarrying
-2019,Selangor,p3,5.277,Manufacturing
-2019,Selangor,p4,10.824,Construction
-2019,Selangor,p5,7.001,Services
-2019,Selangor,p6,8.234,Import duties
-2019,Terengganu,p1,5.942,Agriculture
-2019,Terengganu,p2,9.656,Mining and quarrying
-2019,Terengganu,p3,0.289,Manufacturing
-2019,Terengganu,p4,0.37,Construction
-2019,Terengganu,p5,5.6,Services
-2019,Terengganu,p6,-75.112,Import duties
-2019,W.P. Kuala Lumpur,p1,NA,Agriculture
-2019,W.P. Kuala Lumpur,p2,4.744,Mining and quarrying
-2019,W.P. Kuala Lumpur,p3,4.286,Manufacturing
-2019,W.P. Kuala Lumpur,p4,5.867,Construction
-2019,W.P. Kuala Lumpur,p5,6.129,Services
-2019,W.P. Kuala Lumpur,p6,8.59,Import duties
-2019,W.P. Labuan,p1,6.085,Agriculture
-2019,W.P. Labuan,p2,NA,Mining and quarrying
-2019,W.P. Labuan,p3,1.391,Manufacturing
-2019,W.P. Labuan,p4,13.533,Construction
-2019,W.P. Labuan,p5,7.606,Services
-2019,W.P. Labuan,p6,-73.211,Import duties
-2020,Johor,p1,2.764,Agriculture
-2020,Johor,p2,-19.08,Mining and quarrying
-2020,Johor,p3,-3.674,Manufacturing
-2020,Johor,p4,-37.676,Construction
-2020,Johor,p5,-3.165,Services
-2020,Johor,p6,-17.51,Import duties
-2020,Kedah,p1,-2.265,Agriculture
-2020,Kedah,p2,-10.729,Mining and quarrying
-2020,Kedah,p3,1.408,Manufacturing
-2020,Kedah,p4,2.039,Construction
-2020,Kedah,p5,-3.391,Services
-2020,Kedah,p6,10.718,Import duties
-2020,Kelantan,p1,0.065,Agriculture
-2020,Kelantan,p2,-17.973,Mining and quarrying
-2020,Kelantan,p3,-5.105,Manufacturing
-2020,Kelantan,p4,3.477,Construction
-2020,Kelantan,p5,-0.919,Services
-2020,Kelantan,p6,-20.438,Import duties
-2020,Melaka,p1,3.392,Agriculture
-2020,Melaka,p2,-12.697,Mining and quarrying
-2020,Melaka,p3,-8.494,Manufacturing
-2020,Melaka,p4,-26.945,Construction
-2020,Melaka,p5,-4.532,Services
-2020,Melaka,p6,67.087,Import duties
-2020,Negeri Sembilan,p1,-6.694,Agriculture
-2020,Negeri Sembilan,p2,-15.308,Mining and quarrying
-2020,Negeri Sembilan,p3,-4.931,Manufacturing
-2020,Negeri Sembilan,p4,-25.638,Construction
-2020,Negeri Sembilan,p5,-0.896,Services
-2020,Negeri Sembilan,p6,18.32,Import duties
-2020,Pahang,p1,1.185,Agriculture
-2020,Pahang,p2,-25.143,Mining and quarrying
-2020,Pahang,p3,-4.077,Manufacturing
-2020,Pahang,p4,-21.711,Construction
-2020,Pahang,p5,-8.67,Services
-2020,Pahang,p6,36.885,Import duties
-2020,Perak,p1,1.043,Agriculture
-2020,Perak,p2,-14.352,Mining and quarrying
-2020,Perak,p3,3.454,Manufacturing
-2020,Perak,p4,-17.38,Construction
-2020,Perak,p5,-3.823,Services
-2020,Perak,p6,62.117,Import duties
-2020,Perlis,p1,-18.456,Agriculture
-2020,Perlis,p2,-9.757,Mining and quarrying
-2020,Perlis,p3,-5.608,Manufacturing
-2020,Perlis,p4,-9.634,Construction
-2020,Perlis,p5,-1.047,Services
-2020,Perlis,p6,-43.967,Import duties
-2020,Pulau Pinang,p1,-0.916,Agriculture
-2020,Pulau Pinang,p2,-18.844,Mining and quarrying
-2020,Pulau Pinang,p3,2.755,Manufacturing
-2020,Pulau Pinang,p4,-15.505,Construction
-2020,Pulau Pinang,p5,-5.482,Services
-2020,Pulau Pinang,p6,9.446,Import duties
-2020,Sabah,p1,-6.711,Agriculture
-2020,Sabah,p2,-12.317,Mining and quarrying
-2020,Sabah,p3,-6.636,Manufacturing
-2020,Sabah,p4,-29.114,Construction
-2020,Sabah,p5,-7.18,Services
-2020,Sabah,p6,43.933,Import duties
-2020,Sarawak,p1,-10.079,Agriculture
-2020,Sarawak,p2,-4.736,Mining and quarrying
-2020,Sarawak,p3,-8.699,Manufacturing
-2020,Sarawak,p4,-8.811,Construction
-2020,Sarawak,p5,-5.334,Services
-2020,Sarawak,p6,21.808,Import duties
-2020,Selangor,p1,0.262,Agriculture
-2020,Selangor,p2,-12.095,Mining and quarrying
-2020,Selangor,p3,-0.863,Manufacturing
-2020,Selangor,p4,-9.674,Construction
-2020,Selangor,p5,-6.634,Services
-2020,Selangor,p6,-12.536,Import duties
-2020,Terengganu,p1,-3.755,Agriculture
-2020,Terengganu,p2,-12.456,Mining and quarrying
-2020,Terengganu,p3,-9.407,Manufacturing
-2020,Terengganu,p4,-7.292,Construction
-2020,Terengganu,p5,-3.059,Services
-2020,Terengganu,p6,92.504,Import duties
-2020,W.P. Kuala Lumpur,p1,NA,Agriculture
-2020,W.P. Kuala Lumpur,p2,-9.411,Mining and quarrying
-2020,W.P. Kuala Lumpur,p3,-6.302,Manufacturing
-2020,W.P. Kuala Lumpur,p4,-26.425,Construction
-2020,W.P. Kuala Lumpur,p5,-5.419,Services
-2020,W.P. Kuala Lumpur,p6,1.63,Import duties
-2020,W.P. Labuan,p1,-13.6,Agriculture
-2020,W.P. Labuan,p2,NA,Mining and quarrying
-2020,W.P. Labuan,p3,-1.167,Manufacturing
-2020,W.P. Labuan,p4,-8.237,Construction
-2020,W.P. Labuan,p5,0.215,Services
-2020,W.P. Labuan,p6,83.238,Import duties
-2021,Johor,p1,0.154,Agriculture
-2021,Johor,p2,-10.744,Mining and quarrying
-2021,Johor,p3,5.372,Manufacturing
-2021,Johor,p4,-18.15,Construction
-2021,Johor,p5,2.942,Services
-2021,Johor,p6,-4.386,Import duties
-2021,Kedah,p1,2.735,Agriculture
-2021,Kedah,p2,-7.809,Mining and quarrying
-2021,Kedah,p3,6.215,Manufacturing
-2021,Kedah,p4,-8.419,Construction
-2021,Kedah,p5,1.933,Services
-2021,Kedah,p6,30.753,Import duties
-2021,Kelantan,p1,0.892,Agriculture
-2021,Kelantan,p2,3.14,Mining and quarrying
-2021,Kelantan,p3,2.084,Manufacturing
-2021,Kelantan,p4,1.111,Construction
-2021,Kelantan,p5,2.832,Services
-2021,Kelantan,p6,39.847,Import duties
-2021,Melaka,p1,-1.446,Agriculture
-2021,Melaka,p2,-6.633,Mining and quarrying
-2021,Melaka,p3,3.348,Manufacturing
-2021,Melaka,p4,-9.622,Construction
-2021,Melaka,p5,2.696,Services
-2021,Melaka,p6,-43.07,Import duties
-2021,Negeri Sembilan,p1,-0.458,Agriculture
-2021,Negeri Sembilan,p2,-6.674,Mining and quarrying
-2021,Negeri Sembilan,p3,7.167,Manufacturing
-2021,Negeri Sembilan,p4,-0.364,Construction
-2021,Negeri Sembilan,p5,2.258,Services
-2021,Negeri Sembilan,p6,-29.453,Import duties
-2021,Pahang,p1,0.032,Agriculture
-2021,Pahang,p2,-17.333,Mining and quarrying
-2021,Pahang,p3,6.077,Manufacturing
-2021,Pahang,p4,18.405,Construction
-2021,Pahang,p5,-1.13,Services
-2021,Pahang,p6,-32.502,Import duties
-2021,Perak,p1,2.96,Agriculture
-2021,Perak,p2,-7.015,Mining and quarrying
-2021,Perak,p3,9.166,Manufacturing
-2021,Perak,p4,-6.716,Construction
-2021,Perak,p5,2.571,Services
-2021,Perak,p6,-31.958,Import duties
-2021,Perlis,p1,-5.904,Agriculture
-2021,Perlis,p2,-5.035,Mining and quarrying
-2021,Perlis,p3,5.381,Manufacturing
-2021,Perlis,p4,0.13,Construction
-2021,Perlis,p5,2.164,Services
-2021,Perlis,p6,88.99,Import duties
-2021,Pulau Pinang,p1,-2.393,Agriculture
-2021,Pulau Pinang,p2,-6.585,Mining and quarrying
-2021,Pulau Pinang,p3,12.352,Manufacturing
-2021,Pulau Pinang,p4,12.855,Construction
-2021,Pulau Pinang,p5,2.395,Services
-2021,Pulau Pinang,p6,-5.832,Import duties
-2021,Sabah,p1,-2.19,Agriculture
-2021,Sabah,p2,3.203,Mining and quarrying
-2021,Sabah,p3,-1.842,Manufacturing
-2021,Sabah,p4,7.816,Construction
-2021,Sabah,p5,2.108,Services
-2021,Sabah,p6,-11.098,Import duties
-2021,Sarawak,p1,-2.962,Agriculture
-2021,Sarawak,p2,-2.504,Mining and quarrying
-2021,Sarawak,p3,10.963,Manufacturing
-2021,Sarawak,p4,10.012,Construction
-2021,Sarawak,p5,2.5,Services
-2021,Sarawak,p6,-8.352,Import duties
-2021,Selangor,p1,4.85,Agriculture
-2021,Selangor,p2,-6.272,Mining and quarrying
-2021,Selangor,p3,12.977,Manufacturing
-2021,Selangor,p4,-6.382,Construction
-2021,Selangor,p5,2.649,Services
-2021,Selangor,p6,8.921,Import duties
-2021,Terengganu,p1,-5.21,Agriculture
-2021,Terengganu,p2,1.01,Mining and quarrying
-2021,Terengganu,p3,9.464,Manufacturing
-2021,Terengganu,p4,2.337,Construction
-2021,Terengganu,p5,1.439,Services
-2021,Terengganu,p6,-47.864,Import duties
-2021,W.P. Kuala Lumpur,p1,NA,Agriculture
-2021,W.P. Kuala Lumpur,p2,-2.92,Mining and quarrying
-2021,W.P. Kuala Lumpur,p3,4.264,Manufacturing
-2021,W.P. Kuala Lumpur,p4,-11.943,Construction
-2021,W.P. Kuala Lumpur,p5,1.943,Services
-2021,W.P. Kuala Lumpur,p6,1.187,Import duties
-2021,W.P. Labuan,p1,1.302,Agriculture
-2021,W.P. Labuan,p2,NA,Mining and quarrying
-2021,W.P. Labuan,p3,-1.008,Manufacturing
-2021,W.P. Labuan,p4,-11.864,Construction
-2021,W.P. Labuan,p5,1.461,Services
-2021,W.P. Labuan,p6,-31.931,Import duties
-2022,Johor,p1,3.081,Agriculture
-2022,Johor,p2,10.524,Mining and quarrying
-2022,Johor,p3,5.454,Manufacturing
-2022,Johor,p4,15.931,Construction
-2022,Johor,p5,10.994,Services
-2022,Johor,p6,20.785,Import duties
-2022,Kedah,p1,0.339,Agriculture
-2022,Kedah,p2,10.763,Mining and quarrying
-2022,Kedah,p3,8.077,Manufacturing
-2022,Kedah,p4,18.307,Construction
-2022,Kedah,p5,7.973,Services
-2022,Kedah,p6,7.671,Import duties
-2022,Kelantan,p1,-3.904,Agriculture
-2022,Kelantan,p2,11.435,Mining and quarrying
-2022,Kelantan,p3,3.088,Manufacturing
-2022,Kelantan,p4,19.687,Construction
-2022,Kelantan,p5,6.781,Services
-2022,Kelantan,p6,36.734,Import duties
-2022,Melaka,p1,0.61,Agriculture
-2022,Melaka,p2,10.453,Mining and quarrying
-2022,Melaka,p3,6.753,Manufacturing
-2022,Melaka,p4,5.14,Construction
-2022,Melaka,p5,12.438,Services
-2022,Melaka,p6,13.205,Import duties
-2022,Negeri Sembilan,p1,0.531,Agriculture
-2022,Negeri Sembilan,p2,10.877,Mining and quarrying
-2022,Negeri Sembilan,p3,7.971,Manufacturing
-2022,Negeri Sembilan,p4,5.78,Construction
-2022,Negeri Sembilan,p5,7.781,Services
-2022,Negeri Sembilan,p6,-47.847,Import duties
-2022,Pahang,p1,6.778,Agriculture
-2022,Pahang,p2,12.761,Mining and quarrying
-2022,Pahang,p3,5.81,Manufacturing
-2022,Pahang,p4,-1.046,Construction
-2022,Pahang,p5,16.937,Services
-2022,Pahang,p6,0.792,Import duties
-2022,Perak,p1,-2.569,Agriculture
-2022,Perak,p2,11.846,Mining and quarrying
-2022,Perak,p3,0.99,Manufacturing
-2022,Perak,p4,6.107,Construction
-2022,Perak,p5,7.383,Services
-2022,Perak,p6,48.019,Import duties
-2022,Perlis,p1,3.405,Agriculture
-2022,Perlis,p2,9.939,Mining and quarrying
-2022,Perlis,p3,4.525,Manufacturing
-2022,Perlis,p4,1.102,Construction
-2022,Perlis,p5,5.597,Services
-2022,Perlis,p6,68.378,Import duties
-2022,Pulau Pinang,p1,4.743,Agriculture
-2022,Pulau Pinang,p2,10.712,Mining and quarrying
-2022,Pulau Pinang,p3,15.865,Manufacturing
-2022,Pulau Pinang,p4,7.928,Construction
-2022,Pulau Pinang,p5,11.492,Services
-2022,Pulau Pinang,p6,2.954,Import duties
-2022,Sabah,p1,0.2,Agriculture
-2022,Sabah,p2,-0.582,Mining and quarrying
-2022,Sabah,p3,-2.546,Manufacturing
-2022,Sabah,p4,6.174,Construction
-2022,Sabah,p5,8.498,Services
-2022,Sabah,p6,12.572,Import duties
-2022,Sarawak,p1,1.805,Agriculture
-2022,Sarawak,p2,7.303,Mining and quarrying
-2022,Sarawak,p3,5.76,Manufacturing
-2022,Sarawak,p4,4.028,Construction
-2022,Sarawak,p5,9.338,Services
-2022,Sarawak,p6,20.351,Import duties
-2022,Selangor,p1,-0.498,Agriculture
-2022,Selangor,p2,12.555,Mining and quarrying
-2022,Selangor,p3,9.042,Manufacturing
-2022,Selangor,p4,4.206,Construction
-2022,Selangor,p5,13.602,Services
-2022,Selangor,p6,32.131,Import duties
-2022,Terengganu,p1,-3.346,Agriculture
-2022,Terengganu,p2,10.968,Mining and quarrying
-2022,Terengganu,p3,8.296,Manufacturing
-2022,Terengganu,p4,3.425,Construction
-2022,Terengganu,p5,5.952,Services
-2022,Terengganu,p6,-48.072,Import duties
-2022,W.P. Kuala Lumpur,p1,NA,Agriculture
-2022,W.P. Kuala Lumpur,p2,10.087,Mining and quarrying
-2022,W.P. Kuala Lumpur,p3,5.34,Manufacturing
-2022,W.P. Kuala Lumpur,p4,2.057,Construction
-2022,W.P. Kuala Lumpur,p5,10.963,Services
-2022,W.P. Kuala Lumpur,p6,-43.136,Import duties
-2022,W.P. Labuan,p1,4.724,Agriculture
-2022,W.P. Labuan,p2,NA,Mining and quarrying
-2022,W.P. Labuan,p3,1.7,Manufacturing
-2022,W.P. Labuan,p4,3.252,Construction
-2022,W.P. Labuan,p5,4.751,Services
-2022,W.P. Labuan,p6,-13.38,Import duties
+2022,Kuala Lumpur,p1,0,Agriculture
+2022,Kuala Lumpur,p2,147.775,Mining and quarrying
+2022,Kuala Lumpur,p3,6297.152,Manufacturing
+2022,Kuala Lumpur,p4,12212.196,Construction
+2022,Kuala Lumpur,p5,219683.46,Services
+2022,Kuala Lumpur,p6,2175.199,Import duties
+2022,Labuan,p1,122.137,Agriculture
+2022,Labuan,p2,0,Mining and quarrying
+2022,Labuan,p3,1376.733,Manufacturing
+2022,Labuan,p4,147.96,Construction
+2022,Labuan,p5,6281.577,Services
+2022,Labuan,p6,34.104,Import duties
