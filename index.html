@@ -11,21 +11,70 @@
 </head>
 <body>
     <div id="content">
-        <h1>Homework Week 10</h1>
+        <h1>Economic Overview of Malaysia</h1>
+
+        <div id="linegraph"></div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Aliquam fermentum lorem eu mauris vehicula mollis.<br>
+            Nulla facilisi. Nunc est justo, interdum consequat dignissim eget,<br>
+            condimentum nec libero.<br>
+            Nullam dictum blandit odio ut facilisis.<br>
+            Cras augue urna, scelerisque vitae ullamcorper at, consectetur eget leo.</p>
+        </div>
+        
+        <div id="radical"></div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Aliquam fermentum lorem eu mauris vehicula mollis.<br>
+            Nulla facilisi. Nunc est justo, interdum consequat dignissim eget,<br>
+            condimentum nec libero.<br>
+            Nullam dictum blandit odio ut facilisis.<br>
+            Cras augue urna, scelerisque vitae ullamcorper at, consectetur eget leo.</p>
+        </div>
+        <div id="scatterplot"></div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Aliquam fermentum lorem eu mauris vehicula mollis.<br>
+            Nulla facilisi. Nunc est justo, interdum consequat dignissim eget,<br>
+            condimentum nec libero.<br>
+            Nullam dictum blandit odio ut facilisis.<br>
+            Cras augue urna, scelerisque vitae ullamcorper at, consectetur eget leo.</p>
+        </div>
         <div id="map"></div>
-        <div id="map2"></div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Aliquam fermentum lorem eu mauris vehicula mollis.<br>
+            Nulla facilisi. Nunc est justo, interdum consequat dignissim eget,<br>
+            condimentum nec libero.<br>
+            Nullam dictum blandit odio ut facilisis.<br>
+            Cras augue urna, scelerisque vitae ullamcorper at, consectetur eget leo.</p>
+        </div>
     </div>
 
     <script>
-        var vg1 = "js/map.json"; 
-        vegaEmbed("#map", vg1).then(function(result) {
+        var vg1 = "js/line-chart-gdp-malaysia.json"; 
+        vegaEmbed("#linegraph", vg1).then(function(result) {
         }).catch(console.error);
     </script>
 
     <script>
-        var vg2 = "js/staked-bar-chart.json";
-        vegaEmbed("#map2", vg2).then(function(result) {
+        var vg2 = "js/radical.json";
+        vegaEmbed("#radical", vg2).then(function(result) {
         }).catch(console.error);
     </script>
+
+    <script>
+        var vg3 = "js/scatterplot.json";
+        vegaEmbed("#scatterplot", vg3).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+    <script>
+        var vg4 = "js/map.json";
+        vegaEmbed("#map", vg4).then(function(result) {
+        }).catch(console.error);
+    </script>
+    
 </body>
 </html>

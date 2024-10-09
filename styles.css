@@ -14,14 +14,20 @@ body {
     align-items: center;   
 }
 
-#map, #map2 {
+#map, #scatterplot,#radical, #linegraph {
     width: 100%;
     max-width: 1500px;
     height: auto;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
     margin: 0; /* Reset margin */
+}
+
+.description { 
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    text-align: center;  
 }
 
 h1, h2 {

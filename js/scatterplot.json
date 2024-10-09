@@ -1,7 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 600,
+    "width": 800,
+    "height": 450,
+    "title": {
+        "text":"Correlation of Net Flows of FDI and GDP Per Capita",
+        "fontSize":26
+      },
     "description": "Scatter plot with lines connecting the points, showing the relationship between net flows of FDI and GDP per capita over time.",
     "data": {
       "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/annual_fdi_and_gdp_per_capita.csv",

@@ -1,6 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title" : "Quarterly Real GDP of Malaysia",
+  "title": {
+    "text":"Real GDP of Malaysia",
+    "fontSize": 26,
+    "anchor": "middle",
+    "align": "center"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_qtr_real.csv",
     "format": {
