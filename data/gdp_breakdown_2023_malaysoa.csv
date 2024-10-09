@@ -1,0 +1,113 @@
+date,Sector_Name,sector,value
+01/01/2023,Agriculture,p1,100812
+01/01/2023,Crops,p1.1,67704
+01/01/2023,Rubber,p1.1.1,1672
+01/01/2023,Oil palm,p1.1.2,36203
+01/01/2023,Paddy,p1.1.3,2194
+01/01/2023,Vegetables,p1.1.4,13842
+01/01/2023,Fruits,p1.1.5,5600
+01/01/2023,Food crops,p1.1.6,6852
+01/01/2023,Others ,p1.1.7,1341
+01/01/2023,Livestock,p1.2,16701
+01/01/2023,Poultry,p1.2.1,10163
+01/01/2023,Cattle,p1.2.2 ,1338
+01/01/2023,Other livestocks,p1.2.3,5200
+01/01/2023,Forestry and logging,p1.3,4799
+01/01/2023,Fishing,p1.4,11608
+01/01/2023,Marine fishing,p1.4.1,7306
+01/01/2023,Aquaculture,p1.4.2,4303
+01/01/2023,Mining and quarrying,p2,97513
+01/01/2023,Crude oil and condensate,p2.1,36155
+01/01/2023,Natural gas ,p2.2,52063
+01/01/2023,Other mining & quarrying and supporting services,p2.3,9295
+01/01/2023,Manufacturing,p3,366694
+01/01/2023,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,44150
+01/01/2023,Vegetable and animal oils & fats,p3.1.1,11861
+01/01/2023,Food processing,p3.1.2,22664
+01/01/2023,Beverages,p3.1.3,5706
+01/01/2023,Tobacco products,p3.1.4,3919
+01/01/2023,"Tekstil, pakaian dan produk kulit",p3.2,6244
+01/01/2023,Textile and wearing apparel,p3.2.1,5301
+01/01/2023,Leather and related products,p3.2.2,943
+01/01/2023,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,18035
+01/01/2023,Wood products ,p3.3.1,7567
+01/01/2023,Paper and paper products,p3.3.2,5848
+01/01/2023,Printing and reproduction of recorded media ,p3.3.3,4620
+01/01/2023,"Produk petroleum, kimia, getah dan plastik",p3.4,102067
+01/01/2023,Refined petroleum products,p3.4.1,40986
+01/01/2023,Chemicals & chemical products and pharmaceutical products ,p3.4.2,37926
+01/01/2023,Rubber products,p3.4.3,11381
+01/01/2023,Plastics products,p3.4.4,11774
+01/01/2023,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,38585
+01/01/2023,Non-metallic mineral products,p3.5.1,12168
+01/01/2023,Basic metals,p3.5.2,9086
+01/01/2023,Fabricated metal products,p3.5.3,17331
+01/01/2023,"Produk elektrik, elektronik dan optikal",p3.6,117708
+01/01/2023,Machinery and equipment,p3.6.1,11770
+01/01/2023,Computers and peripheral equipment,p3.6.2,7045
+01/01/2023,Electrical equipment,p3.6.3,8083
+01/01/2023,"Electronic components & boards, communication equipment and consumer electronics",p3.6.4,83918
+01/01/2023,"Manufacture of medical, precision & optical instrument, watches and clocks",p3.6.5,6892
+01/01/2023,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,39905
+01/01/2023,Motor vehicles and transport equipment,p3.7.1,30149
+01/01/2023,Furniture,p3.7.2,4829
+01/01/2023,Other manufacturing and repair & installation of machinery and equipment,p3.7.3,4927
+01/01/2023,Construction,p4,56659
+01/01/2023,Buildings,p4.1,25033
+01/01/2023,Residential buildings,p4.1.1,11369
+01/01/2023,Non-residential buildings,p4.1.2,13664
+01/01/2023,Civil engineering,p4.2,16548
+01/01/2023,Specialised construction activities,p4.3,15077
+01/01/2023,Services,p5,927904
+01/01/2023,"Utilities, transportation & storage and information & communication",p5.1,207021
+01/01/2023,Electricity and gas,p5.1.1,31994
+01/01/2023,"Water, sewerage and waste management",p5.1.2,9417
+01/01/2023,Transportation and storage,p5.1.3,62782
+01/01/2023,Land transport,p5.1.3.1,16149
+01/01/2023,Water transport,p5.1.3.2,7810
+01/01/2023,Air transport,p5.1.3.3,3890
+01/01/2023,Port and airport operation,p5.1.3.4,9945
+01/01/2023,Highway operation,p5.1.3.5,10749
+01/01/2023,Support activities for transportation,p5.1.3.6,10631
+01/01/2023,Postal and courier ,p5.1.3.7,3608
+01/01/2023,Information and communication,p5.1.4,102828
+01/01/2023,Publishing and broadcasting activities ,p5.1.4.1,8363
+01/01/2023,Telecommunications,p5.1.4.2,72447
+01/01/2023,Computer and information service activities,p5.1.4.3,22018
+01/01/2023,"Wholesale and retail trade, food & beverage and accommodation",p5.2,328677
+01/01/2023,Wholesale and retail trade ,p5.2.1,281372
+01/01/2023,Wholesale trade,p5.2.1.1,115281
+01/01/2023,Retail trade,p5.2.1.2,135254
+01/01/2023,Motor vehicles,p5.2.1.3,30836
+01/01/2023,Food and beverage,p5.2.2,36251
+01/01/2023,Accommodation,p5.2.3,11054
+01/01/2023,"Finance and insurance, real estate and business services",p5.3,175453
+01/01/2023,Finance,p5.3.1,78693
+01/01/2023,Monetary intermediation,p5.3.1.1,64855
+01/01/2023,Other financial intermediation and activities auxiliary to finance,p5.3.1.2,13838
+01/01/2023,Insurance,p5.3.2,25496
+01/01/2023,Insurance and pension funding,p5.3.2.1,24786
+01/01/2023,Activities auxiliary to insurance,p5.3.2.2,710
+01/01/2023,Real estate,p5.3.3,20935
+01/01/2023,Business services,p5.3.4,50329
+01/01/2023,"Professional, scientific and technical ",p5.3.4.1,36573
+01/01/2023,Administrative and support services,p5.3.4.2,13756
+01/01/2023,Other services,p5.4,72886
+01/01/2023,Private health services,p5.4.1,12275
+01/01/2023,Private education services,p5.4.2,12268
+01/01/2023,Owner-occupied dwellings,p5.4.3,34731
+01/01/2023,Non-profit institutions serving households,p5.4.4,604
+01/01/2023,Domestic services of households,p5.4.5,1096
+01/01/2023,Other services not elsewhere classified,p5.4.6,11912
+01/01/2023,Government services,p5.5,143868
+01/01/2023,General public services,p5.5.01,23088
+01/01/2023,Defence,p5.5.02,8709
+01/01/2023,Public order and safety,p5.5.03,11270
+01/01/2023,Economic affairs,p5.5.04,19446
+01/01/2023,Environmental protection,p5.5.05,410
+01/01/2023,Housing and community amenities,p5.5.06,3764
+01/01/2023,Health,p5.5.07,22345
+01/01/2023,"Recreation, culture and religion",p5.5.08,2736
+01/01/2023,Education,p5.5.09,49819
+01/01/2023,Social protection,p5.5.10,2281
+01/01/2023,Import duties,p6,18392
