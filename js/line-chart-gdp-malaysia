@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title" : "Quarterly Real GDP of Malaysia",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_qtr_real.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"date": "utc:'%d/%m/%Y'"} 
+    }
+  },
+  "vconcat": [
+    {
+      "width": "container",
+      "height": 240,
+      "mark": {
+        "type": "line",
+        "tooltip": true,
+        "color": "black",
+        "point": {"color": "black"}
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": "", "tickCount": 10}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {"title": "Value (RM millions)"},
+          "scale": {"domain": [200000, 450000]}
+        },
+         "tooltip": [
+              {"field": "date", "type": "temporal", "title": "Date"},
+              {"field": "value", "type": "quantitative", "title": "Value"}
+            ]
+      }
+    },
+    {
+      "width": "container",
+      "height": 60,
+      "mark": {
+        "type": "line",
+        "color": "black"
+      },
+      "params": [
+        {
+          "name": "brush",
+          "select": {"type": "interval", "encodings": ["x"]}
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {"title": "Date", "tickCount": 10}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {"domain": [200000, 450000]},
+          "axis": {"title" : "Value","tickCount": 3, "grid": false}
+        }
+      }
+    }
+  ]
+}
