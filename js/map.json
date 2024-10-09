@@ -112,11 +112,11 @@
     {
       "data": {
         "values": [
-          {"latitude": 2.306, "longitude": 102.252}, 
+          {"latitude": 2.906, "longitude": 101.742}, 
           {"latitude": 3.0, "longitude": 104.8}       
         ]
       },
-      "mark": {"type": "line", "strokeWidth": 2, "color": "black"},
+      "mark": {"type": "line", "strokeWidth": 1, "color": "black"},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
@@ -129,7 +129,7 @@
           {"latitude": 6.5, "longitude": 115.5}      
         ]
       },
-      "mark": {"type": "line", "strokeWidth": 2, "color": "black"},
+      "mark": {"type": "line", "strokeWidth": 1, "color": "black"},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
@@ -138,7 +138,7 @@
     {
       "data": {
         "values": [
-          {"latitude": 3.206, "longitude": 103.452, "text_annotation": "Melaka has the lowest", "text_annotation2": "unemployment rate"},
+          {"latitude": 3.206, "longitude": 103.452, "text_annotation": "Putrajaya has the lowest", "text_annotation2": "unemployment rate"},
           {"latitude": 7.2, "longitude": 111.0, "text_annotation": "Sabah has the highest", "text_annotation2": "unemployment rate"}
         ]
       },
