@@ -85,7 +85,7 @@
           "field": "u_rate",
           "type": "quantitative",
           "legend": {"format": ".2s",
-          "title": "Unemployment Rate (%)",}
+          "title": "Unemployment Rate (%)"}
         },
         "tooltip": [
           {"field": "state", "type": "nominal", "title": "State"},
