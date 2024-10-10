@@ -25,9 +25,7 @@
             "type": "line",
             "tooltip": true,
             "color": "black",
-            "point": {
-              "color": "blackF"
-            }
+            "point": {"color": "black"}
           },
           "encoding": {
             "x": {
@@ -71,12 +69,9 @@
           }
         },
         {
-          "transform": [
-            {
-              "calculate": "datetime(2020, 3, 1)",
-              "as": "april2020"
-            }
-          ],
+          "data": {
+            "values": [{"date": "2020-04-01"}]
+          },
           "mark": {
             "type": "rule",
             "color": "red",
@@ -84,18 +79,20 @@
           },
           "encoding": {
             "x": {
-              "field": "april2020",
-              "type": "temporal"
+              "field": "date",
+              "type": "temporal",
+              "scale": {
+                "domain": {
+                  "param": "brush"
+                }
+              }
             }
           }
         },
         {
-          "transform": [
-            {
-              "calculate": "datetime(2020, 3, 1)",
-              "as": "april2020"
-            }
-          ],
+          "data": {
+            "values": [{"date": "2020-04-01"}]
+          },
           "mark": {
             "type": "text",
             "dx": 100,
@@ -106,8 +103,13 @@
           },
           "encoding": {
             "x": {
-              "field": "april2020",
-              "type": "temporal"
+              "field": "date",
+              "type": "temporal",
+              "scale": {
+                "domain": {
+                  "param": "brush"
+                }
+              }
             }
           }
         }
@@ -127,9 +129,7 @@
               "name": "brush",
               "select": {
                 "type": "interval",
-                "encodings": [
-                  "x"
-                ]
+                "encodings": ["x"]
               }
             }
           ],
@@ -160,12 +160,9 @@
           }
         },
         {
-          "transform": [
-            {
-              "calculate": "datetime(2020, 3, 1)",
-              "as": "april2020"
-            }
-          ],
+          "data": {
+            "values": [{"date": "2020-04-01"}]
+          },
           "mark": {
             "type": "rule",
             "color": "red",
@@ -173,7 +170,7 @@
           },
           "encoding": {
             "x": {
-              "field": "april2020",
+              "field": "date",
               "type": "temporal"
             }
           }
