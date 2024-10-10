@@ -8,12 +8,7 @@
   },
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_qtr_real.csv",
-    "format": {
-      "type": "csv",
-      "parse": {
-        "date": "utc:'%d/%m/%Y'"
-      }
-    }
+    "format": {"type": "csv", "parse": {"date": "utc:'%d/%m/%Y'"}}
   },
   "vconcat": [
     {
@@ -31,68 +26,34 @@
             "x": {
               "field": "date",
               "type": "temporal",
-              "scale": {
-                "domain": {
-                  "param": "brush"
-                }
-              },
-              "axis": {
-                "title": "",
-                "tickCount": 10
-              }
+              "scale": {"domain": {"param": "brush"}},
+              "axis": {"title": "", "tickCount": 10}
             },
             "y": {
               "field": "value",
               "type": "quantitative",
-              "axis": {
-                "title": "Value (RM millions)"
-              },
-              "scale": {
-                "domain": [
-                  200000,
-                  450000
-                ]
-              }
+              "axis": {"title": "Value (RM millions)"},
+              "scale": {"domain": [200000, 450000]}
             },
             "tooltip": [
-              {
-                "field": "date",
-                "type": "temporal",
-                "title": "Date"
-              },
-              {
-                "field": "value",
-                "type": "quantitative",
-                "title": "Value"
-              }
+              {"field": "date", "type": "temporal", "title": "Date"},
+              {"field": "value", "type": "quantitative", "title": "Value"}
             ]
           }
         },
         {
-          "data": {
-            "values": [{"date": "2020-04-01"}]
-          },
-          "mark": {
-            "type": "rule",
-            "color": "red",
-            "strokeWidth": 2
-          },
+          "data": {"values": [{"date": "2020-04-01"}]},
+          "mark": {"type": "rule", "color": "red", "strokeWidth": 2},
           "encoding": {
             "x": {
               "field": "date",
               "type": "temporal",
-              "scale": {
-                "domain": {
-                  "param": "brush"
-                }
-              }
+              "scale": {"domain": {"param": "brush"}}
             }
           }
         },
         {
-          "data": {
-            "values": [{"date": "2020-04-01"}]
-          },
+          "data": {"values": [{"date": "2020-04-01"}]},
           "mark": {
             "type": "text",
             "dx": 100,
@@ -105,11 +66,7 @@
             "x": {
               "field": "date",
               "type": "temporal",
-              "scale": {
-                "domain": {
-                  "param": "brush"
-                }
-              }
+              "scale": {"domain": {"param": "brush"}}
             }
           }
         }
@@ -120,60 +77,31 @@
       "height": 60,
       "layer": [
         {
-          "mark": {
-            "type": "line",
-            "color": "black"
-          },
+          "mark": {"type": "line", "color": "black"},
           "params": [
             {
               "name": "brush",
-              "select": {
-                "type": "interval",
-                "encodings": ["x"]
-              }
+              "select": {"type": "interval", "encodings": ["x"]}
             }
           ],
           "encoding": {
             "x": {
               "field": "date",
               "type": "temporal",
-              "axis": {
-                "title": "Date",
-                "tickCount": 10
-              }
+              "axis": {"title": "Date", "tickCount": 10}
             },
             "y": {
               "field": "value",
               "type": "quantitative",
-              "scale": {
-                "domain": [
-                  200000,
-                  450000
-                ]
-              },
-              "axis": {
-                "title": "Value",
-                "tickCount": 3,
-                "grid": false
-              }
+              "scale": {"domain": [200000, 450000]},
+              "axis": {"title": "Value", "tickCount": 3, "grid": false}
             }
           }
         },
         {
-          "data": {
-            "values": [{"date": "2020-04-01"}]
-          },
-          "mark": {
-            "type": "rule",
-            "color": "red",
-            "strokeWidth": 2
-          },
-          "encoding": {
-            "x": {
-              "field": "date",
-              "type": "temporal"
-            }
-          }
+          "data": {"values": [{"date": "2020-04-01"}]},
+          "mark": {"type": "rule", "color": "red", "strokeWidth": 2},
+          "encoding": {"x": {"field": "date", "type": "temporal"}}
         }
       ]
     }
