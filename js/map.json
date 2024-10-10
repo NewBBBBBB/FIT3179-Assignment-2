@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text":"Unemployment rate in Malaysia (2022)",
+    "text":"Unemployment Rate in Malaysia (2022)",
     "fontSize":26
   },
   "width": 800,
@@ -84,6 +84,11 @@
         "color": {
           "field": "u_rate",
           "type": "quantitative",
+          "scale": {
+            "scheme": "greens",
+            "type": "quantize",
+            "domain": [1, 7.5] 
+          },
           "legend": {"format": ".2s",
           "title": "Unemployment Rate (%)"}
         },
