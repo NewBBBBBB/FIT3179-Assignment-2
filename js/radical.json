@@ -2,13 +2,13 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Radial chart for main sectors and subsectors.",
   "title": {
-    "text":"Breakdown of GDP by Sector in Malaysia",
-    "fontSize":26
+    "text": "Breakdown of GDP by Sector in Malaysia",
+    "fontSize": 26
   },
   "width": 800,
   "height": 450,
   "data": {
-    "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_breakdown_malaysia.csv"
+    "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/filtered_gdp_breakdown.csv"
   },
   "params": [
     {
@@ -37,27 +37,28 @@
       "filter": "datum.year == year_filter"
     },
     {
-      "filter": "sector_filter == 'null' ? length(datum.sector) == 2 : (indexof(datum.sector, sector_filter) == 0 && length(datum.sector) > length(sector_filter))"
+      "filter": "sector_filter == 'null' ? length(datum.sector) == 2 : (sector_filter == 'p6' ? datum.sector == 'p6' : (indexof(datum.sector, sector_filter) == 0 && length(datum.sector) > length(sector_filter)))"
     }
   ],
- "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"},
-"encoding": {
-  "theta": {"field": "value", "type": "quantitative", "stack": true},
-  "radius": {"field": "value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
-  "color": {
-    "field": "Sector_Name", 
-    "type": "nominal", 
-    "legend": {
-      "title": "Sectors",
-      "orient": "right", 
-      "fillColor": "white", 
-      "labelFontSize": 12,
-      "titleFontSize": 14 
-    }
-  },
-  "tooltip": [
-    {"field": "Sector_Name", "type": "nominal", "title": "Sector"},
-    {"field": "value", "type": "quantitative", "title": "Value"}
-  ]
+  "mark": {"type": "arc", "innerRadius": 50, "stroke": "#fff"},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "radius": {"field": "value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 80}},
+    "color": {
+      "field": "Sector_Name", 
+      "type": "nominal", 
+       "scale": {"scheme": "tableau20"},
+      "legend": {
+        "title": "Sectors",
+        "orient": "right", 
+        "fillColor": "white", 
+        "labelFontSize": 12,
+        "titleFontSize": 14 
+      }
+    },
+    "tooltip": [
+      {"field": "Sector_Name", "type": "nominal", "title": "Sector"},
+      {"field": "value", "type": "quantitative", "title": "Value"}
+    ]
   }
 }

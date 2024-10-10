@@ -91,8 +91,52 @@
         "color": {
           "field": "year",
           "type": "nominal",
-          "legend": null
+          "legend": null,
+          "scale": {"scheme": "tableau20"}
         }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "poverty_absolute",
+          "on": "u_rate"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "black",
+        "strokeDash": [5,5]
+      },
+      "encoding": {
+        "x": {
+          "field": "u_rate",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "poverty_absolute",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "poverty_absolute",
+          "on": "u_rate",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "black",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
       }
     }
   ]
