@@ -115,8 +115,7 @@
       }
   ],
   "mark": {
-      "type": "geoshape",
-      "cursor": "pointer"
+      "type": "geoshape"
   },
   "encoding": {
       "shape": {
