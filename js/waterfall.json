@@ -151,7 +151,27 @@
                     }
                 ]
             }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "dx": 0,
+                "dy": 100
+            },
+            "encoding": {
+                "text": {
+                    "value": "COVID-19 strikes"
+                }
+            }
+        },
+        {
+        "mark": {"type": "text", "angle": 270, "dx": -70, "dy":0,"fontSize": 35,"shape":"arrow"},
+        "encoding": {
+        "text": {"value": "\uD83E\uDC46"}
         }
+      }
     ],
     "encoding": {
         "y": {
