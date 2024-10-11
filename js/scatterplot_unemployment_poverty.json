@@ -9,12 +9,14 @@
   "description": "Scatter plot showing the relationship between the poverty rate and the unemployment rate over time.",
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/unemployment_poverty.csv",
-    "format": { "type": "csv" }
+    "format": {
+      "type": "csv"
+    }
   },
   "transform": [
     {
-      "calculate": "year(datum.date)",  
-      "as": "year"  
+      "calculate": "year(datum.date)",
+      "as": "year"
     }
   ],
   "layer": [
@@ -31,7 +33,10 @@
           "type": "quantitative",
           "title": "Poverty Rate (%)",
           "scale": {
-            "domain": [0, 10] 
+            "domain": [
+              0,
+              10
+            ]
           }
         },
         "color": {
@@ -42,6 +47,15 @@
       }
     },
     {
+      "params": [
+        {
+          "name": "highlight",
+          "select": {
+            "type": "point",
+            "on": "pointerover"
+          }
+        }
+      ],
       "mark": "circle",
       "encoding": {
         "x": {
@@ -54,17 +68,47 @@
           "type": "quantitative",
           "title": "Poverty Rate (%)",
           "scale": {
-            "domain": [0, 10] 
+            "domain": [
+              0,
+              10
+            ]
           }
         },
         "color": {
-          "field": "year",
-          "type": "nominal"
+          "condition": {
+            "param": "highlight",
+            "field": "year",
+            "type": "nominal",
+            "legend": null,
+            "scale": {
+              "scheme": "tableau20"
+            }
+          },
+          "value": "black"
+        },
+        "opacity": {
+          "condition": {
+            "param": "highlight",
+            "value": 1
+          },
+          "value": 0.3
         },
         "tooltip": [
-          { "field": "year", "type": "nominal", "title": "Year" },
-          { "field": "u_rate", "type": "quantitative", "title": "Unemployment Rate" },
-          { "field": "poverty_absolute", "type": "quantitative", "title": "Poverty Rate (%)" }
+          {
+            "field": "year",
+            "type": "nominal",
+            "title": "Year"
+          },
+          {
+            "field": "u_rate",
+            "type": "quantitative",
+            "title": "Unemployment Rate (%)"
+          },
+          {
+            "field": "poverty_absolute",
+            "type": "quantitative",
+            "title": "Poverty Rate (%)"
+          }
         ]
       }
     },
@@ -85,14 +129,27 @@
           "type": "quantitative"
         },
         "text": {
-          "field": "year", 
+          "field": "year",
           "type": "nominal"
         },
         "color": {
-          "field": "year",
-          "type": "nominal",
-          "legend": null,
-          "scale": {"scheme": "tableau20"}
+          "condition": {
+            "param": "highlight",
+            "field": "year",
+            "type": "nominal",
+            "legend": null,
+            "scale": {
+              "scheme": "tableau20"
+            }
+          },
+          "value": "black"
+        },
+        "opacity": {
+          "condition": {
+            "param": "highlight",
+            "value": 1
+          },
+          "value": 0.4
         }
       }
     },
@@ -106,7 +163,10 @@
       "mark": {
         "type": "line",
         "color": "black",
-        "strokeDash": [5,5]
+        "strokeDash": [
+          5,
+          5
+        ]
       },
       "encoding": {
         "x": {
@@ -126,7 +186,10 @@
           "on": "u_rate",
           "params": true
         },
-        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
       ],
       "mark": {
         "type": "text",
@@ -136,7 +199,10 @@
         "y": -5
       },
       "encoding": {
-        "text": {"type": "nominal", "field": "R2"}
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
       }
     }
   ]
