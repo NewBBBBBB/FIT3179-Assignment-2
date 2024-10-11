@@ -253,6 +253,7 @@
                       "dx": 120,
                       "dy": 0,
                       "fontSize": 12,
+                      "fontStyle": "italic",
                       "color": "black"
                   },
                   "encoding": {
@@ -276,6 +277,7 @@
                       "dx": 120,
                       "dy": 15,
                       "fontSize": 12,
+                      "fontStyle": "italic",
                       "color": "black"
                   },
                   "encoding": {

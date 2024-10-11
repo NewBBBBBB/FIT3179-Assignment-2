@@ -75,7 +75,8 @@
             "dy": 100,
             "fontSize": 12,
             "color": "black",
-            "text": "Sharp decrease due to COVID-19"
+            "text": "Sharp decrease due to COVID-19",
+            "fontStyle": "italic"
           },
           "encoding": {
             "x": {
