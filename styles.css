@@ -14,12 +14,13 @@ body {
     align-items: center;   
 }
 
-#map, #scatterplot,#radical, #linegraph {
+#map, #scatterplot,#radical, #linegraph, #waterfall {
     width: 100%;
     max-width: 1500px;
     height: auto;
     background-color: white;
-    margin: 0; /* Reset margin */
+    margin: 0; 
+    text-align: center; 
 }
 
 .description { 

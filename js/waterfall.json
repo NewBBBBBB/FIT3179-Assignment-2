@@ -1,0 +1,163 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 400,
+    "title": "FDI Flows by Year",
+    "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/fdi_flows(1).csv"
+    },
+    "layer": [
+        {
+            "transform": [
+                {
+                    "filter": "datum.type == 'year'"
+                }
+            ],
+            "params": [
+                {
+                    "name": "highlight",
+                    "select": {
+                        "type": "point",
+                        "on": "pointerover"
+                    }
+                },
+                {
+                    "name": "select",
+                    "select": "point"
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "color": "lightgreen",
+                "stroke": "black"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "ordinal",
+                    "axis": {
+                        "title": "Year",
+                        "labelAngle": 0
+                    }
+                },
+                "y": {
+                    "field": "outflow",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "field": "inflow"
+                },
+                "fillOpacity": {
+                    "condition": {
+                        "param": "select",
+                        "value": 1
+                    },
+                    "value": 0.3
+                },
+                "strokeWidth": {
+                    "condition": [
+                        {
+                            "param": "select",
+                            "empty": false,
+                            "value": 2
+                        },
+                        {
+                            "param": "highlight",
+                            "empty": false,
+                            "value": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "inflow",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Inflow (RM bil)"
+                    },
+                    {
+                        "field": "outflow",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Outflow (RM bil)"
+                    },
+                    {
+                        "field": "net",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Netflow (RM bil)"
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.type == 'total'"
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "color": "lightblue",
+                "size": 40,
+                "stroke": "black"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "field": "inflow",
+                    "type": "quantitative"
+                },
+                "fillOpacity": {
+                    "condition": {
+                        "param": "select",
+                        "value": 1
+                    },
+                    "value": 0.3
+                },
+                "strokeWidth": {
+                    "condition": [
+                        {
+                            "param": "select",
+                            "empty": false,
+                            "value": 2
+                        },
+                        {
+                            "param": "highlight",
+                            "empty": false,
+                            "value": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Period"
+                    },
+                    {
+                        "field": "inflow",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Total Net FDI (RM bil)"
+                    }
+                ]
+            }
+        }
+    ],
+    "encoding": {
+        "y": {
+            "axis": {
+                "title": "FDI Value (RM bil)"
+            }
+        }
+    }
+}
