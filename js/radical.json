@@ -30,7 +30,12 @@
         "labels": ["All Sectors", "Agriculture", "Mining", "Manufacturing", "Construction", "Services", "Import Duties"],
         "name": "Main Sector: "
       }
-    }
+    },
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "pointerover"}
+    },
+    {"name": "select", "select": "point"}
   ],
   "transform": [
     {
@@ -40,14 +45,19 @@
       "filter": "sector_filter == 'null' ? length(datum.sector) == 2 : (sector_filter == 'p6' ? datum.sector == 'p6' : (indexof(datum.sector, sector_filter) == 0 && length(datum.sector) > length(sector_filter)))"
     }
   ],
-  "mark": {"type": "arc", "innerRadius": 50, "stroke": "#fff"},
+  "mark": {
+    "type": "arc",
+    "innerRadius": 50,
+    "stroke": "black",
+    "cursor": "pointer"
+  },
   "encoding": {
     "theta": {"field": "value", "type": "quantitative", "stack": true},
     "radius": {"field": "value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 80}},
     "color": {
       "field": "Sector_Name", 
       "type": "nominal", 
-       "scale": {"scheme": "tableau20"},
+      "scale": {"scheme": "tableau20"},
       "legend": {
         "title": "Sectors",
         "orient": "right", 
@@ -59,6 +69,28 @@
     "tooltip": [
       {"field": "Sector_Name", "type": "nominal", "title": "Sector"},
       {"field": "value", "type": "quantitative", "title": "Value"}
-    ]
+    ],
+    "fillOpacity": {
+      "condition": {
+        "param": "select", 
+        "value": 1.0
+      },
+      "value": 0.3
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 1
+        }
+      ],
+      "value": 0
+    }
   }
 }
