@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 700,
-    "height": 400,
-    "title": "FDI Flows by Year",
+    "width": 930,
+    "height": 450,
+    "background": "transparent",  
     "data": {
         "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/fdi_flows(1).csv"
     },
@@ -104,7 +104,6 @@
             "mark": {
                 "type": "bar",
                 "color": "lightblue",
-                "size": 40,
                 "stroke": "black"
             },
             "encoding": {
@@ -157,6 +156,7 @@
                 "type": "text",
                 "fontSize": 12,
                 "fontStyle": "italic",
+                "color": "black",
                 "dx": 0,
                 "dy": 100
             },

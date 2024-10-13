@@ -1,11 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": 930,
   "height": 450,
-  "title": {
-    "text": "Correlation of Poverty Rate and Unemployment Rate ",
-    "fontSize": 26
-  },
+  "background": "transparent", 
   "description": "Scatter plot showing the relationship between the poverty rate and the unemployment rate over time.",
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/unemployment_poverty.csv",

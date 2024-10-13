@@ -1,12 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Radial chart for main sectors and subsectors.",
-  "title": {
-    "text": "Breakdown of GDP by Sector in Malaysia",
-    "fontSize": 26
-  },
   "width": 800,
   "height": 450,
+  "background": "transparent", 
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/filtered_gdp_breakdown.csv"
   },

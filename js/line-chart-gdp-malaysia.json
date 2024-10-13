@@ -1,19 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Real GDP of Malaysia",
-    "fontSize": 26,
-    "anchor": "middle",
-    "align": "center"
-  },
+  "background": "transparent", 
   "data": {
     "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/gdp_qtr_real.csv",
     "format": {"type": "csv", "parse": {"date": "utc:'%d/%m/%Y'"}}
   },
   "vconcat": [
     {
-      "width": "container",
-      "height": 240,
+      "width": 930,
+      "height": 350,
       "layer": [
         {
           "mark": {
@@ -114,8 +109,8 @@
       ]
     },
     {
-      "width": "container",
-      "height": 60,
+      "width": 930,
+      "height": 100,
       "layer": [
         {
           "mark": {"type": "line", "color": "black"},
