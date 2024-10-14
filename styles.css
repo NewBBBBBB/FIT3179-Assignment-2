@@ -44,8 +44,8 @@ h2 {
 }
 
 .left, .right {
-    width: 50%; /* Ensure both sections take equal space */
-    box-sizing: border-box; /* Include padding in width calculations */
+    width: 50%; 
+    box-sizing: border-box; 
 }
 
 .left {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .right {
-    padding-left: 50px; /* Padding to the left */
+    padding-left: 50px;
 
 }
 
