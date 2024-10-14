@@ -129,7 +129,7 @@
             },
             "legend": {
                 "format": ".2s",
-                "title": "Unemployment Rate (%)",
+                "title": ["Unemployment", "Rate (%)"],
                 "labelFontSize": 12,
                 "titleFontSize": 15
             }

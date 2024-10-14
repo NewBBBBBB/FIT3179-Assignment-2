@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: flex-start; 
     background-color: #f9f7f1;
+    font-size: 1.2rem;
 }
 
 #title {
@@ -48,13 +49,21 @@ h2 {
 }
 
 .left {
-    padding-right: 20px; /* Adjust padding to control spacing */
-    border-right: 2px solid #2f2f2f; /* Border between left and right columns */
+    padding-left: 200px;
+    border-right: 2px solid #2f2f2f;
 }
 
 .right {
-    padding-left: 20px; /* Padding to the left */
+    padding-left: 50px; /* Padding to the left */
+
 }
+
+.b {
+    font-size: 2rem;
+}
+
+
+
 
 .subtext {
     font-family: 'Verdana', serif;
@@ -71,13 +80,24 @@ h2 {
     align-items: center; 
 }
 
-#map, #scatterplot,#radical, #linegraph, #waterfall {
+#scatterplot,#radical, #linegraph, #waterfall {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0; 
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#map {
+    padding-left: 50px;
     width: 100%;
     max-width: 1500px;
     height: auto;
     margin: 0; 
     text-align: center;
 }
+
 
 
 
