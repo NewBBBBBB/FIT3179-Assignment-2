@@ -9,7 +9,7 @@ body {
 #title {
     font-family: 'Lora', serif;
     font-weight: 1000;
-    font-size: 3.75rem;
+    font-size: 3.4rem;
     text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
@@ -34,6 +34,36 @@ h2 {
     margin-bottom: 10px;
 }
 
+.description {
+    width: 100%;
+    max-width: 1500px;
+    display: flex; /* Flexbox for side-by-side layout */
+    justify-content: space-between; /* Spread the content evenly */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.left, .right {
+    width: 50%; /* Ensure both sections take equal space */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.left {
+    padding-right: 20px; /* Adjust padding to control spacing */
+    border-right: 2px solid #2f2f2f; /* Border between left and right columns */
+}
+
+.right {
+    padding-left: 20px; /* Padding to the left */
+}
+
+.subtext {
+    font-family: 'Verdana', serif;
+    font-size: 1rem;
+    color: #2f2f2f;
+    line-height: 1.5; /* Add line-height for better readability */
+}
+
+
 
 #content {
     display: flex;
@@ -49,12 +79,7 @@ h2 {
     text-align: center;
 }
 
-.description { 
-    width: 100%;
-    max-width: 1500px;
-    height: auto;
-    text-align: center;  
-}
+
 
 
 
