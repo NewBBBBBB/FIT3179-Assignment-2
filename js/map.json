@@ -123,7 +123,7 @@
             "field": "u_rate",
             "type": "quantitative",
             "scale": {
-                "scheme": "warmgreys",
+                "scheme": "greys",
                 "type": "quantize",
                 "domain": [1, 7.5]
             },
