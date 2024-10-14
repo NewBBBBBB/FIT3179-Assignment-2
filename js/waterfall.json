@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 930,
+    "width": 800,
     "height": 450,
     "background": "transparent",  
     "data": {
@@ -28,8 +28,8 @@
             ],
             "mark": {
                 "type": "bar",
-                "color": "lightgreen",
-                "stroke": "black"
+                "stroke": "black",
+                "width": {"band": 0.9}
             },
             "encoding": {
                 "x": {
@@ -46,6 +46,24 @@
                 },
                 "y2": {
                     "field": "inflow"
+                },
+                "color": {
+                    "field": "type",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["year", "total"],
+                        "range": ["#BC8F8F", "#645452"]
+                    },
+                    "legend": {
+                        "title": "Net FDI Type",
+                        "labelExpr": "datum.value == 'year' ? 'Positive' : 'Total'",
+                        "fillColor": "lightgrey", 
+                        "labelFontSize": 12,
+                        "titleFontSize": 16,
+                        "padding": 10,
+                        "symbolStrokeWidth": 1,
+                        "offset": 10
+                    }
                 },
                 "fillOpacity": {
                     "condition": {
@@ -103,8 +121,8 @@
             ],
             "mark": {
                 "type": "bar",
-                "color": "lightblue",
-                "stroke": "black"
+                "stroke": "black",
+                "width": {"band": 0.9}
             },
             "encoding": {
                 "x": {
@@ -114,6 +132,9 @@
                 "y": {
                     "field": "inflow",
                     "type": "quantitative"
+                },
+                "color": {
+                    "value": "#645452" 
                 },
                 "fillOpacity": {
                     "condition": {
@@ -167,11 +188,20 @@
             }
         },
         {
-        "mark": {"type": "text", "angle": 270, "dx": -70, "dy":0,"fontSize": 35,"shape":"arrow"},
-        "encoding": {
-        "text": {"value": "\uD83E\uDC46"}
+            "mark": {
+                "type": "text",
+                "angle": 270,
+                "dx": -70,
+                "dy": 0,
+                "fontSize": 35,
+                "shape": "arrow"
+            },
+            "encoding": {
+                "text": {
+                    "value": "\uD83E\uDC46"
+                }
+            }
         }
-      }
     ],
     "encoding": {
         "y": {

@@ -38,7 +38,7 @@
             ],
             "mark": {
                 "type": "geoshape",
-                "fill": "#ddd",
+                "fill": "#edede9",
                 "stroke": "white",
                 "strokeWidth": 1
             },
@@ -64,8 +64,8 @@
             ],
             "mark": {
                 "type": "geoshape",
-                "fill": "#ddd",
-                "stroke": "white",
+                "fill": "#e3b295",
+                "stroke": "black",
                 "strokeWidth": 1
             },
             "encoding": {
@@ -123,19 +123,23 @@
             "field": "u_rate",
             "type": "quantitative",
             "scale": {
-                "scheme": "greens",
+                "scheme": "warmgreys",
                 "type": "quantize",
                 "domain": [1, 7.5]
             },
             "legend": {
                 "format": ".2s",
                 "title": ["Unemployment", "Rate (%)"],
+                "fillColor": "lightgrey", 
                 "labelFontSize": 12,
-                "titleFontSize": 15
+                "titleFontSize": 15,
+                "padding":10,
+                "symbolStrokeWidth": 1
+    
             }
         },
         "strokeWidth": {
-            "value": 1
+            "value": 0.3
         },
         "stroke": {
             "value": "black"
