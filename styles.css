@@ -43,14 +43,21 @@ h2 {
     align-items: flex-start; /* Align items to the top */
 }
 
-.left, .right, .left2, .left3, .left4, .left5 {
+.left, .right, .left2, .left3, .left4, .left5, .left6 {
     width: 50%; 
     box-sizing: border-box; 
     margin-bottom: 10px;
 }
 
+.left6 {
+    padding-left: 20px;
+    padding-right: 30px;
+    border-right: 2px solid #2f2f2f;
+
+}
+
 .left5 {
-    padding-left: 90px;
+    padding-left: 70px;
     padding-right: 30px;
     border-right: 2px solid #2f2f2f;
 
@@ -72,7 +79,7 @@ h2 {
 }
 
 .left2 {
-    padding-left: 50px;
+    padding-left:70px;
     padding-right: 10px;
     border-right: 2px solid black;
 
