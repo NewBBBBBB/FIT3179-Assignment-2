@@ -1,172 +1,180 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Bump Chart of Cost of Living Index rankings over time with country flags",
-    "width":850,
-    "height": 450,
-    "background": "lightgrey",
-    "data": {
-      "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/cost_of_living_index.json",
-      "format": {
-        "type": "json"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bump Chart of Cost of Living Index rankings over time with country flags",
+  "width":850,
+  "height": 450,
+  "background": "#d3d3d3",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/cost_of_living_index.json",
+    "format": {
+      "type": "json"
+    }
+  },
+  "layer": [
+
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "title": "Rank",
+          "scale": { "reverse": true, "domain": [1, 7], "padding": 20 },
+          "axis": {
+            "format": "d",
+            "grid": true,
+            "gridColor": "#888", 
+            "gridOpacity": 0.6
+          }
+        },
+        "strokeWidth": {"value": 2},
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "title": "Country",
+          "scale": {
+            "domain": ["Singapore", "Thailand", "Cambodia", "Malaysia", "Indonesia", "Vietnam", "Philippines"],
+            "range": [
+              "#393b79",
+              "#6b6ecf",
+              "#8c6d31",
+              "#e7ba52",
+              "#e377c2",
+              "#e31a1c",
+              "#3182bd"
+            ]
+          },
+          "legend": {
+            "cornerRadius": 5,
+            "title": "Country",
+            "orient": "right",
+            "labelFontSize": 13,
+            "titleFontSize": 15,
+            "padding":8,
+            "symbolStrokeWidth": 3.5,
+            "symbolType": "circle",
+            "symbolSize": 150,
+            "offset": 20,
+            "fillColor": "white"
+          }
+        },
+        "tooltip": [
+          { "field": "Country", "title": "Country" },
+          { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
+          { "field": "Year", "title": "Year" }
+        ]
       }
     },
-    "layer": [
-  
-      {
-        "mark": "line",
-        "encoding": {
-          "x": {
-            "field": "Year",
-            "type": "ordinal",
-            "title": "Year"
+
+    {
+      "params": [
+        {
+          "name": "select",
+          "select": {
+            "type": "point",
+            "on": "click",
+            "fields": ["Country"]
           },
-          "y": {
-            "field": "Rank",
-            "type": "quantitative",
-            "title": "Rank",
-            "scale": { "reverse": true, "domain": [1, 7], "padding": 20 },
-            "axis": {
-              "format": "d"
-            }
-          },
-          "strokeWidth": {"value": 2},
-          "color": {
-            "field": "Country",
-            "type": "nominal",
-            "title": "Country",
-            "scale": {
-              "domain": ["Singapore", "Thailand", "Cambodia", "Malaysia", "Indonesia", "Vietnam", "Philippines"],
-              "range": [
-                "#393b79",
-                "#6b6ecf",
-                "#8c6d31",
-                "#e7ba52",
-                "#3182bd",
-                "#c6dbef",
-                "#31a354"
-              ]
-            },
-            "legend": {
-              "cornerRadius": 5,
-              "title": "Country",
-              "orient": "right",
-              "labelFontSize": 12,
-              "titleFontSize": 16,
-              "padding": 15,
-              "symbolStrokeWidth": 3.5,
-              "symbolType": "circle",
-              "symbolSize": 150,
-              "offset": 10,
-              "fillColor": "lightgrey"
-            }
-          },
-          "tooltip": [
-            { "field": "Country", "title": "Country" },
-            { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
-            { "field": "Year", "title": "Year" }
-          ]
+          "bind": "legend"
+        },
+        {
+          "name": "highlight",
+          "select": {"type": "point", "on": "pointerover","fields": ["Country"]}
         }
-      },
-  
-      {
-        "params": [
-          {
-            "name": "select",
-            "select": {
-              "type": "point",
-              "on": "click",
-              "fields": ["Country"]
-            },
-            "bind": "legend"
-          },
-          {
-            "name": "highlight",
-            "select": {"type": "point", "on": "pointerover","fields": ["Country"]}
+      ],
+      "mark": {"type":"line"},
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "title": "Rank",
+          "scale": { "reverse": true, "domain": [1, 7], "padding": 20 },
+          "axis": {
+            "format": "d"
           }
-        ],
-        "mark": {"type":"line"},
-        "encoding": {
-          "x": {
-            "field": "Year",
-            "type": "ordinal",
-            "title": "Year"
+        },
+        "color": {
+          "field": "Country",
+          "type": "nominal"
+        },
+        "strokeWidth": {
+          "condition": [
+              {
+              "param": "select",
+              "empty": false,
+              "value": 10
+              },
+              {
+              "param": "highlight",
+              "empty": false,
+              "value": 5
+              }
+          ],
+          "value": 2
           },
-          "y": {
-            "field": "Rank",
-            "type": "quantitative",
-            "title": "Rank",
-            "scale": { "reverse": true, "domain": [1, 7], "padding": 20 },
-            "axis": {
-              "format": "d"
-            }
-          },
-          "color": {
-            "field": "Country",
-            "type": "nominal"
-          },
-          "strokeWidth": {
-            "condition": [
-                {
-                "param": "select",
-                "empty": false,
-                "value": 10
-                },
-                {
-                "param": "highlight",
-                "empty": false,
-                "value": 5
-                }
-            ],
-            "value": 2
-            },
-          
-          "tooltip": [
-            { "field": "Country", "title": "Country" },
-            { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
-            { "field": "Year", "title": "Year" }
-          ]
-        }
         
-      },
-      {
-        "mark": {
-          "type": "image",
-          "width": 40,
-          "height": 40,
-          "cursor": "pointer"
-        },
-        "encoding": {
-          "x": {
-            "field": "Year",
-            "type": "ordinal",
-            "title": "Year"
-          },
-          "y": {
-            "field": "Rank",
-            "type": "quantitative",
-            "scale": { "reverse": true },
-            "axis": {
-              "title": "Rank",
-              "format": "d"
-            }
-          },
-          "url": {
-            "field": "Flag"
-          },
-          "opacity": {
-          "condition": {
-            "param": "highlight",
-            "value": 1
-          },
-          "value": 0.5
-        },
-          "tooltip": [
-            { "field": "Country", "title": "Country" },
-            { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
-            { "field": "Year", "title": "Year" }
-          ]
-        }
+        "tooltip": [
+          { "field": "Country", "title": "Country" },
+          { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
+          { "field": "Year", "title": "Year" }
+        ]
       }
-    ]
+      
+    },
+    {
+      "mark": {
+        "type": "image",
+        "width": 40,
+        "height": 40,
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "scale": { "reverse": true },
+          "axis": {
+            "title": "Rank",
+            "format": "d"
+          }
+        },
+        "url": {
+          "field": "Flag"
+        },
+        "opacity": {
+        "condition": {
+          "param": "highlight",
+          "value": 1
+        },
+        "value": 0.5
+      },
+        "tooltip": [
+          { "field": "Country", "title": "Country" },
+          { "field": "Cost_of_Living_Index", "title": "Cost of Living Index" },
+          { "field": "Year", "title": "Year" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "#000",
+      "strokeWidth": 0.6
+    }
   }
-  
+}

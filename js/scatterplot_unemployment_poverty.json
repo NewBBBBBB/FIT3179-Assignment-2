@@ -223,6 +223,142 @@
           "field": "R2"
         }
       }
-    }
+    },
+    {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "black",
+                "dx": 400,
+                "dy": -100
+            },
+            "encoding": {
+                "text": {
+                    "value": "COVID-19 strikes"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "angle": 270,
+                "dx": 130,
+                "dy": 415,
+                "fontSize": 35,
+                "shape": "arrow"
+            },
+            "encoding": {
+                "text": {
+                    "value": "\uD83E\uDC46"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "black",
+                "dx": 0,
+                "dy": 100
+            },
+            "encoding": {
+                "text": {
+                    "value": "Global financial crisis strikes"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "angle": 270,
+                "dx": -75,
+                "dy": 2,
+                "fontSize": 35,
+                "shape": "arrow"
+            },
+            "encoding": {
+                "text": {
+                    "value": "\uD83E\uDC46"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "black",
+                "dx": -150,
+                "dy": 145
+            },
+            "encoding": {
+                "text": {
+                    "value": "Policy Changes to Reduce Unemployment"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "black",
+                "dx": -150,
+                "dy": 165
+            },
+            "encoding": {
+                "text": {
+                    "value": "(11th Malaysia Plan)"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "angle": 90,
+                "dx": 188,
+                "dy": 156,
+                "fontSize": 35,
+                "shape": "arrow"
+            },
+            "encoding": {
+                "text": {
+                    "value": "\uD83E\uDC46"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "black",
+                "dx": -70,
+                "dy": -80
+            },
+            "encoding": {
+                "text": {
+                    "value": "Tsunami Impact in Northern Malaysia"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "angle": 90,
+                "dx": -55,
+                "dy": 105,
+                "fontSize": 35,
+                "shape": "arrow"
+            },
+            "encoding": {
+                "text": {
+                    "value": "\uD83E\uDC46"
+                }
+            }
+        }
+        
   ]
 }

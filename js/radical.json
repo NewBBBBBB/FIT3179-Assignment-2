@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Radial chart for main sectors and subsectors.",
-  "width": 800,
+  "width": 850,
   "height": 450,
   "background": "transparent", 
   "data": {
@@ -59,10 +59,10 @@
         "cornerRadius":5,
         "title": "Sectors",
         "orient": "right", 
-        "fillColor": "lightgrey", 
-        "labelFontSize": 12,
-        "titleFontSize": 16,
-        "padding":15,
+        "fillColor": "white", 
+        "labelFontSize": 13,
+        "titleFontSize": 15,
+        "padding":5,
         "symbolStrokeWidth": 1
       }
     },
