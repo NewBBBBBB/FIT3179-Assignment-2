@@ -43,14 +43,36 @@ h2 {
     align-items: flex-start; /* Align items to the top */
 }
 
-.left, .right, .left2 {
+.left, .right, .left2, .left3, .left4, .left5 {
     width: 50%; 
     box-sizing: border-box; 
     margin-bottom: 10px;
 }
 
+.left5 {
+    padding-left: 90px;
+    padding-right: 30px;
+    border-right: 2px solid #2f2f2f;
+
+}
+
+.left4 {
+    padding-left: 10px;
+    padding-right: 30px;
+    border-right: 2px solid #2f2f2f;
+
+}
+
+
+.left3 {
+    padding-left: 30px;
+    padding-right: 10px;
+    border-right: 2px solid black;
+
+}
+
 .left2 {
-    padding-left: 70px;
+    padding-left: 50px;
     padding-right: 10px;
     border-right: 2px solid black;
 
@@ -96,7 +118,7 @@ b {
     align-items: center; 
 }
 
-#scatterplot,#radical, #linegraph, #waterfall {
+#scatterplot,#radical, #linegraph {
     width: 100%;
     max-width: 1500px;
     height: auto;
@@ -115,7 +137,15 @@ b {
 }
 
 
-#waterfall {
+#bump_chart, #waterfall {
+    padding-left: 70px;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0; 
+    text-align: center;
+}
+ /* {
     width: 100%;
     padding-left: 70px;
     max-width: 1500px;
@@ -123,7 +153,7 @@ b {
     margin: 0; 
     text-align: center;
     padding-bottom: 30px;
-}
+} */
 
 
 
