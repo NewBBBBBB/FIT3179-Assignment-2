@@ -131,7 +131,7 @@ b {
     height: auto;
     margin: 0; 
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 #map {
@@ -141,6 +141,7 @@ b {
     height: auto;
     margin: 0; 
     text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -151,6 +152,7 @@ b {
     height: auto;
     margin: 0; 
     text-align: center;
+    padding-bottom: 10px;
 }
  /* {
     width: 100%;
