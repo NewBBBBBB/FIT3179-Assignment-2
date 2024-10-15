@@ -3,7 +3,7 @@
     "description": "Bump Chart of Cost of Living Index rankings over time with country flags",
     "width":850,
     "height": 450,
-    "background": "transparent",
+    "background": "lightgrey",
     "data": {
       "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Assignment-2/refs/heads/main/data/cost_of_living_index.json",
       "format": {

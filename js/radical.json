@@ -68,7 +68,7 @@
     },
     "tooltip": [
       {"field": "Sector_Name", "type": "nominal", "title": "Sector"},
-      {"field": "value", "type": "quantitative", "title": "Value (RM millions)"}
+      {"field": "value", "type": "quantitative", "title": "Value (RM millions)","format": ","}
     ],
     "fillOpacity": {
       "condition": {
